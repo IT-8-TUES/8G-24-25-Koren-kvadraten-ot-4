@@ -1,0 +1,83 @@
+h1{
+    text-align: center;
+
+}
+
+.navbar ul{
+   
+    border-width: 1px 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color:rgb(164, 144, 144);
+    height: 150px;
+    padding: fixed;
+
+    right: 0;
+    left: 0;
+    
+
+
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    text-align: center;
+    display: inline-block;
+     display: flex;
+ justify-content: center;
+ align-items: center;
+ font-size: 25px;
+ 
+    
+}
+.navbar li{
+ display: inline-block;
+
+
+ 
+}
+.navbar a:hover{
+    background-color: brown;
+}
+
+body{
+    background-image: url('https://img.freepik.com/free-photo/flat-lay-different-ingredients-assortment-with-copy-space_23-2148541960.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+li{
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.tekst1{
+    font-size: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 50px;
+}
+
+.learn_more{
+ margin-left: 50px;
+ position: relative;
+ top: -100px;
+ height: 65px;
+ width: 120px;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font-size: large;
+ background-color: transparent;
+ border-radius: 20px;
+ 
+   
+}
+
+.learn_more:hover{
+background-color: rgb(167, 140, 140);
+
+}
