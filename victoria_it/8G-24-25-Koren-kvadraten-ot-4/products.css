@@ -31,6 +31,8 @@ margin-top: 45px;
 }
 .navbar li{
  display: inline-block;
+    margin-left: 25px;
+    margin-right: 25px;
 
 
  
@@ -49,6 +51,7 @@ li{
 
 body{
     background-color: rgba(171, 124, 124, 0.637);
+    margin: 0;
 }
 
 header{
@@ -128,16 +131,13 @@ button{
     background-color: #856b62;
     height: 1.2cm;
     width: 4cm;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  text-align: center;
     margin-right: 0cm;
     
 }
-.button_p{
-    margin-left: 2.1cm;
-}
+
 
 button:hover{
     background-color: #b99f96;
 }
+    

@@ -14,7 +14,7 @@ h1{
     background-color:rgb(164, 144, 144);
     height: 150px;
     padding: fixed;
-
+    width: 100%;
     right: 0;
     left: 0;
     
@@ -36,7 +36,8 @@ margin-top: 45px;
 }
 .navbar li{
  display: inline-block;
-
+    margin-left: 25px;
+    margin-right: 25px;
 
  
 }
@@ -45,9 +46,11 @@ margin-top: 45px;
 }
 
 body{
-    background-image: url('https://img.freepik.com/free-photo/flat-lay-different-ingredients-assortment-with-copy-space_23-2148541960.jpg');
+    background-image: url('https://img.freepik.com/premium-photo/white-book-cup-coffee-gypsophila-beige-table-flat-lay-with-blank-copy-space_721474-2268.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    image-resolution:from-image;
+    margin: 0;
 }
 
 li{
@@ -81,3 +84,5 @@ li{
 background-color: rgb(167, 140, 140);
 
 }
+
+
