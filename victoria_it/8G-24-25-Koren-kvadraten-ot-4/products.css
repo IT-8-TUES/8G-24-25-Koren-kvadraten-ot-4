@@ -121,3 +121,23 @@ header{
     font-size: 1rem;
     color: #6d4c41;
 }
+
+button{
+    border-radius: 10px;
+    color: black;
+    background-color: #856b62;
+    height: 1.2cm;
+    width: 4cm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0cm;
+    
+}
+.button_p{
+    margin-left: 2.1cm;
+}
+
+button:hover{
+    background-color: #b99f96;
+}
