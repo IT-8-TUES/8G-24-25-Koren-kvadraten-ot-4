@@ -57,17 +57,18 @@ button:hover{
     padding: 0;
     text-align: center;
     align-items: center;
-    background-color: #AF8F6F;
+   
     height: 150px;
     padding: fixed;
-    width: 100%;
+    width: auto;
     right: 0;
     left: 0;
     margin-bottom: 1.5cm;
-  
-
-
-}
+    margin-right: 150px;
+   }
+   .navbar{
+    background-color:#AF8F6F ;
+   }
 
 .navbar a{
     color: white;
@@ -78,6 +79,7 @@ button:hover{
      display: flex;
 margin-top: 45px;
  font-size: 25px;
+ 
 
  
     
