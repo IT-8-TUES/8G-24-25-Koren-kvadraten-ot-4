@@ -5,16 +5,19 @@
     margin: 0;
     padding: 0;
     text-align: center;
-    background-color:rgb(164, 144, 144);
+    align-items: center;
+   
     height: 150px;
     padding: fixed;
-
+    width: auto;
     right: 0;
     left: 0;
-    
-
-
-}
+    margin-bottom: 0.6cm;
+    margin-right: 150px;
+   }
+   .navbar{
+    background-color:#AF8F6F ;
+   }
 
 .navbar a{
     color: white;
@@ -23,22 +26,30 @@
     text-align: center;
     display: inline-block;
      display: flex;
-
-margin-top: 45px;
+    margin-top: 45px;
  font-size: 25px;
+ 
+
  
     
 }
+
+.snimka{
+   height: 120px;
+    margin-left: 20px;
+    margin-top: 25px;
+    float: left;
+}
+
 .navbar li{
  display: inline-block;
     margin-left: 25px;
     margin-right: 25px;
 
-
  
 }
 .navbar a:hover{
-    background-color: brown;
+    background-color: #A76545;
 }
 
 
@@ -140,3 +151,5 @@ button{
 button:hover{
     background-color: #b99f96;
 }
+
+
