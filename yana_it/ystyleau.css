@@ -9,7 +9,7 @@
     overflow: hidden;
 } 
 .heading h1{
-    color: #ff6347;
+    color: #7D5A50;;
     font-size: 55px;
     text-align: center;
     margin-top: 35px;
@@ -36,11 +36,11 @@
     font-size: 24px;
     line-height: 1.5;
     margin-bottom: 40px;
-    color: #666;
+    color: #805d57;
 }
 .hero-content button{
     display: inline-block;
-    background-color: #ff4500;
+    background-color: #b08968;
     color: #fff;
     padding: 12px 24px;
     border-radius: 5px;
@@ -50,7 +50,7 @@
     transition: 0.3s ease;
 }
 .hero-content button:hover{
-    background-color: #ff6347;
+    background-color: #b07068;
     transform: scale(1.1);
 }
 .hero-image{
@@ -59,7 +59,7 @@
     margin: auto;
     animation: fadeInRight 2s ease;
 }
-img{
+.snimka2{
     width: 100%;
     height: auto;
     border-radius: 10px;
@@ -117,6 +117,7 @@ img{
         transform: translateX(0px);
     }
 }
+
 .navbar ul{
    
     border-width: 1px 0;
@@ -124,16 +125,19 @@ img{
     margin: 0;
     padding: 0;
     text-align: center;
-    background-color:rgb(164, 144, 144);
+    align-items: center;
+   
     height: 150px;
     padding: fixed;
-    width: 100%;
+    width: auto;
     right: 0;
     left: 0;
-    
 
-
-}
+    margin-right: 150px;
+   }
+   .navbar{
+    background-color:#AF8F6F ;
+   }
 
 .navbar a{
     color: white;
@@ -145,8 +149,18 @@ img{
 margin-top: 45px;
  font-size: 25px;
  
+
+ 
     
 }
+
+.snimka{
+   height: 120px;
+    margin-left: 20px;
+    margin-top: 25px;
+    float: left;
+}
+
 .navbar li{
  display: inline-block;
     margin-left: 25px;
@@ -155,5 +169,6 @@ margin-top: 45px;
  
 }
 .navbar a:hover{
-    background-color: brown;
+    background-color: #A76545;
 }
+
