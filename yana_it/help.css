@@ -1,7 +1,7 @@
 body{
     font-family: sans-serif;
     background-color: #f0f0f0;
-    padding: 20px;
+     margin: 0;
 }
 
 .container{
@@ -43,4 +43,45 @@ button:hover{
 
 .contact-info{
     margin-bottom: 20px;
+}
+
+.navbar ul{
+   
+    border-width: 1px 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color:rgb(164, 144, 144);
+    height: 150px;
+    padding: fixed;
+    width: 100%;
+    right: 0;
+    left: 0;
+    
+
+
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    text-align: center;
+    display: inline-block;
+     display: flex;
+margin-top: 45px;
+ font-size: 25px;
+ 
+    
+}
+.navbar li{
+ display: inline-block;
+    margin-left: 25px;
+    margin-right: 25px;
+
+ 
+}
+.navbar a:hover{
+    background-color: brown;
 }
