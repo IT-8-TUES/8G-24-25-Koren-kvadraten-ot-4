@@ -49,6 +49,22 @@ button:hover{
     margin-bottom: 20px;
 }
 
+.hidden{
+    display: none;
+}
+
+#loading{
+    margin-top: 15px;
+    color: #7D5A50;
+    font-weight: bold;
+}
+
+#confirmation{
+    margin-top: 15px;
+    color: green;
+    font-weight: bold;
+}
+
 .navbar ul{
    
     border-width: 1px 0;

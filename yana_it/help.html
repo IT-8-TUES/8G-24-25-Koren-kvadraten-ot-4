@@ -23,7 +23,7 @@
                 <p>Phone: 123 456 7890</p>
             </div>
             <h2>Tell us your problem</h2>
-            <form>
+            <form id="helpForm">
                 <label>Your name: </label>
                 <input type="text" required>
                 <label>Your email: </label>
@@ -32,7 +32,10 @@
                 <textarea rows="5" required></textarea>
                 <button type="submit">Send</button>
             </form>
+            <div id="loading" class="hidden">Sending...</div>
+            <div id="confirmation" class="hidden">Thank you! We'll contact you soon.</div>
         </div>
+        <script src="script.js"></script>
          <footer>
         <div class="footerContainer">
             <div class="socialIcons">
